@@ -15,7 +15,7 @@ static void inject_data(void* address, const void* data, size_t count) {
 }
 
 static int32_t PV_DB_LYRIC_COUNTER_DATA = 1000;
-static void* PV_DB_LYRIC_COUNTER_ADDRESS = (void*)0x00000001404B1CBFULL;
+static void* PV_DB_LYRIC_COUNTER_ADDRESS = (void*)0x00000001404B1CFFULL;
 
 void inject_patches() {
     printf_console("Patching pv_db max lyrics count");
